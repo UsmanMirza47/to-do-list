@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body styling */
+
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* main box to do app container styling */
+.container {
+    width: 400px;
+    height: fit-content;
+    background-color: white;
+    padding: 32px;
+}
+
+/* main heading style */
+.container > h1 {
+    text-align: center;
+    margin: 32px 0px;
+}
+
+/* input text and button main div style */
+.enter-data {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* input type text style */
+.enter-data > input[type="text"] {
+    width: 75%;
+    padding: 8px 8px;
+    font-size: 16px;
+}
+
+/* input text add button */
+.enter-data > button {
+    width: 20%;
+    background-color: green;
+    border: none;
+    padding: 8px 8px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* ul of javaScript functionality */
+ul {
+    width: 100%;
+    margin: 32px 0px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+ul li {
+    list-style: none;
+    background-color: blue;
+    width: 100%;
+    height: fit-content;
+    border: none;
+    padding: 8px;
+    color: white;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li p , span {
+    width: fit-content;
+    height: fit-content;
+}
+
+#tick {
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.p-color {
+    background-color: blueviolet;
+}
+.tick-color, .del-color {
+    background-color: white;
+    color: black;
+}
